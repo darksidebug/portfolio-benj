@@ -1,0 +1,288 @@
+*{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito";
+}
+
+.benj{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.07rem;
+}
+
+.skill{
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+}
+
+.hire-me{
+    background-color: #f8a710 !important;
+    border: 1px solid #f5a209;
+    color: #fff;
+    border-radius: calc(45px/2);
+    height: 45px;
+}
+
+.hire-me:hover{
+    color: #fff;
+}
+
+.resume{
+    border: 1px solid #f5a209;
+    color: #e09407;
+    border-radius: calc(45px/2);
+    height: 45px;
+}
+
+.resume:hover{
+    background-color: #f8a710 !important;
+    border: 1px solid #FFE924 !important;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-brand .logo div::before{
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.navbar-brand .logo div:nth-child(2)::before{
+    bottom: 0.2rem;
+    left: -0.2rem;
+}
+
+.navbar-brand .logo div:nth-child(3)::before{
+    left: -0.2rem;
+}
+
+.navbar-brand .logo div:nth-child(4)::before{
+    left: -0.05rem;
+}
+
+.navLinks ul li a{
+    font-size: 1.15em;
+    letter-spacing: 0.06rem;
+}
+
+.navLinks ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f5a209;
+}
+
+.logo div::before{
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+.logo div:nth-child(1)::before{
+    content: "I";
+    display: inline-block;
+}
+
+.logo div:nth-child(2)::before{
+    content: "M";
+    position: relative;
+    top: -0.1rem;
+    left: -0.5rem;
+    display: inline-block;
+    color: #f5a209;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+.logo div:nth-child(3)::before{
+    content: "N";
+    display: inline-block;
+    position: relative;
+    left: -0.5rem;
+}
+
+.logo div:nth-child(4)::before{
+    content: "J";
+    display: inline-block;
+    position: relative;
+    left: -0.3rem;
+}
+
+.profile{
+    height: 250px;
+    width: 250px;
+    border-radius: calc(250px/2);
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+.projects, .contact{
+    position: relative;
+    z-index: 2;
+    background-color: #f8a710 !important;
+}
+
+@media (min-width: 414px) {
+    .projects, .contact, .about{
+        top: -5vh;
+    }
+}
+
+.project-spacer svg, .contact-spacer svg{
+    position: relative;
+    z-index: 1;
+    top: 2px;
+}
+
+.projects h1, .projects .container,
+.projects .col-md-6, .projects .container .row,
+.contact .container, .contact .container .row,
+.contact h1, .contact .col-md-5, 
+.contact .col-md-10, .contact label{
+    background-color: transparent;
+}
+
+.projects .container{
+    position: relative;
+}
+
+.projects h1, .contact h1{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+.projects h4 a{
+    font-weight: bold;
+    color: #0f0f0f;
+}
+
+.projects .see-more{
+    color: #0f0f0f !important;
+    border: 1px solid #FFE924;
+    background-color: #fff;
+    border-radius: calc(45px/2);
+    height: 45px;
+    padding-top: 11px;
+    float: right;
+    font-size: 1.1em;
+}
+
+.projects .see-more:hover{
+    color: #f8a710 !important;
+}
+
+svg.spacer{
+    position: relative;
+    top: -2px;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+@media (min-width: 414px) {
+    svg.spacer{
+        top: -5.6rem !important;
+    }
+}
+
+.skills, .about{
+    position: relative;
+    z-index: 2;
+    top: 0vh;
+}
+
+@media (min-width: 414px){
+    .skills, .about{
+        top: -10vh;
+    }
+}
+
+@media (min-width: 520px){
+    .skills, .about{
+        top: -10vh;
+    }
+}
+
+@media (min-width: 762px){
+    .skills, .about{
+        top: -15vh;
+    }
+}
+
+@media (min-width: 992px){
+    .skills, .about{
+        top: -18vh;
+    }
+}
+
+@media (min-width: 1200px){
+    .skills, .about{
+        top: -20vh;
+    }
+}
+
+.skills h1, .tools h1,
+.about h1{
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+.logo_wrapper{
+    align-items: center;
+    align-content: center;
+}
+
+.ask{
+    background-color: #f8a710 !important;
+}
+
+.btn_ask{
+    color: #f8a710 !important;
+    border: 1px solid #FFE924;
+    background-color: #fff;
+    border-radius: calc(45px/2);
+    height: 45px;
+    padding-top: 11px;
+    float: center;
+    font-size: 1.1em;
+}
+
+input.form-control{
+    height: 45px;
+    border: 1px solid #FFE924;
+    border-radius: 5px;
+}
+
+textarea.form-control{
+    border: 1px solid #FFE924;
+    border-radius: 5px;
+}
+
+.contact label{
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 0.06rem;
+}
+
+button[type="submit"]{
+    color: #0f0f0f !important;
+    border: 1px solid #FFE924;
+    border-radius: calc(45px/2);
+    height: 45px;
+    font-size: 1.1em;
+}
+
+button[type="submit"]:hover{
+    color: #f8a710 !important;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #0f0f0f;
+}
